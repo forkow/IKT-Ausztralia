@@ -1,0 +1,29 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: #d84521;
+}
+
+#titlebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+#titlebar h1 {
+    font-size: 3.5rem;
+    line-height: 192px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#titlebar img {
+    width: 192px;
+}
+
+#navBar {
+    margin-top: 1rem;
+}
