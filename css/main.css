@@ -27,3 +27,7 @@ body {
 #navBar {
     margin-top: 1rem;
 }
+
+img.width_img1 {
+    width: 64px;
+}
