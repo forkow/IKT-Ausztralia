@@ -11,37 +11,47 @@
 </head>
 <body>
   <header>
-    <div id="titlebar">
-      <img src="img/kengaro.gif" alt="" style="margin-left: 10rem;">
-      <img src="img/g12697.png" class="width_img1" alt="">
-      <img src="img/koala.gif" alt="" style="margin-right: 8rem;">
+    <div class="cotainer-fluid">
+      <div class="row">
+        <div id="titlebar">
+          <div class="col-lg-4 center">
+            <img src="img/kengaro.gif" alt="Kengurú_box">
+          </div>
+          <div class="col-lg-4 center">
+            <img src="img/g12697.png" alt="Logo">
+          </div>
+          <div class="col-lg-4 center">
+            <img src="img/koala.gif" alt="Koala_crawl">
+          </div>
+        </div>
+      </div>
     </div>
   </header>
   <div class="container-fluid">
     <div class="navbar navbar-expand-md navbar-light bg-light" id="navBar">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler positioning_nav" style="margin: 0.5rem;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="collapse navbar-collapse" id="navbarCollapse" style="border-top: solid #894d26 2px; border-bottom: solid #894d26 2px;">
         <ul class="navbar-nav justify-content-around w-100" id="temakTabList" role="tablist">
           <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="tabMain" data-bs-toggle="tab" data-bs-target="#contentMain" type="button" role="tab" aria-selected="true">Főoldal</button>
+            <button class="nav-link active positioning_nav design" id="tabMain" data-bs-toggle="tab" data-bs-target="#contentMain" type="button" role="tab" aria-selected="true">Főoldal</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="tab1" data-bs-toggle="tab" data-bs-target="#contentSights" type="button" role="tab" aria-selected="true">Látványosságok</button>
+            <button class="nav-link positioning_nav design" id="tab1" data-bs-toggle="tab" data-bs-target="#contentSights" type="button" role="tab" aria-selected="true">Látványosságok</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="tab2" data-bs-toggle="tab" data-bs-target="#contentHistory" type="button" role="tab" aria-selected="false">Rövid történelme</button>
+            <button class="nav-link positioning_nav design" id="tab2" data-bs-toggle="tab" data-bs-target="#contentHistory" type="button" role="tab" aria-selected="false">Rövid történelme</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="tab3" data-bs-toggle="tab" data-bs-target="#contentCulture" type="button" role="tab" aria-selected="false">Kultúrája</button>
+            <button class="nav-link positioning_nav design" id="tab3" data-bs-toggle="tab" data-bs-target="#contentCulture" type="button" role="tab" aria-selected="false">Kultúrája</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="tab4" data-bs-toggle="tab" data-bs-target="#contentPride" type="button" role="tab" aria-selected="false">Büszkeségei</button>
+            <button class="nav-link positioning_nav design" id="tab4" data-bs-toggle="tab" data-bs-target="#contentPride" type="button" role="tab" aria-selected="false">Büszkeségei</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="tab5" data-bs-toggle="tab" data-bs-target="#contentTraveling" type="button" role="tab" aria-selected="false">Utazásbemutató</button>
+            <button class="nav-link positioning_nav design" id="tab5" data-bs-toggle="tab" data-bs-target="#contentTraveling" type="button" role="tab" aria-selected="false">Utazásbemutató</button>
           </li>
         </ul>
       </div>
@@ -51,16 +61,23 @@
         <div id="mainContentCarousel" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="img/australia/Australia_mountain.jpg" class="d-block w-100" title="Forrás: Shutterstock">
+              <img src="img/australia/Australia_mountain.jpg" class="d-block w-100" style="border-top: solid #A05A2C 1rem;" title="Uluru homokkősziklatömb">
             </div>
             <div class="carousel-item">
-              <img src="img/australia/victoria.webp" class="d-block w-100" title="Forrás: Shutterstock">
+              <img src="img/australia/victoria.webp" class="d-block w-100" style="border-top: solid #A05A2C 1rem;" title="Victoria">
             </div>
             <div class="carousel-item">
-              <img src="img/australia/nsw.webp" class="d-block w-100" title="Forrás: Shutterstock">
+              <img src="img/australia/nsw.webp" class="d-block w-100" style="border-top: solid #A05A2C 1rem;" title="Sydney Operaház">
             </div>
           </div>
-
+          <div class="row">
+            <div class="col-12">
+              <h2>Források</h2>
+              <p>https://utazaskatalogus.hu/ausztralia-legszebb-helyei-latnivaloi/</p>
+              <p>https://dutchaustralianculturalcentre.com.au/news/sailing-on-the-duyfken-2/</p>
+              <p>https://www.canberrahistory.org.au/resource/15846/canberra-civic-area.html</p>
+            </div>
+          </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#mainContentCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -73,9 +90,108 @@
       </div>
       <div class="tab-pane fade" id="contentSights" role="tabpanel" aria-labelledby="tab1" tabindex="0">
         <h2>Látványosságok</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 style="margin-bottom: 1rem;"><ul><li>Aranypart (Golden Coast)</li></ul></h3>
+            <p class="center">Ausztrália legismertebb tengerparti része, amely közel 75 km hosszan húzódik Brisbane-től délre. Fehérhomokos tengerpart és szinte egész évben kellemes hőmérséklet várja a turistákat. A part igazi paradicsom a vízisportot kedvelőknek. Nem véletlenül nevezik úgy, hogy Surfer’s Paradise vagyis a szörfösök paradicsoma.Másik kedvelt kirándulási lehetőség a Nagy Korallzátony, amely a világ egyetlen ilyen jellegű természeti képződménye. A búvárkodás mellett mindenképp menjünk el egy üvegfenekű hajós túrára!</p>
+          </div>
+          <div class="col-lg-6 center">
+            <img src="img/aranypart.jpg" class="positioning_img" style="border: dashed darkgreen 10px;" alt="Aranypart" title="Aranypart">
+          </div>
+        </div>
+        <hr class="line">
+        <div class="row">
+          <div class="col-lg-6 center">
+            <img src="img/sydney.jpg" class="positioning_img" style="border: dashed darkgreen 10px;" alt="Sydney és tengerparjta" title="Sydney és tengerparjta">
+          </div>
+          <div class="col-lg-6">
+            <h3 style="margin-bottom: 1rem;"><ul><li>Sydney</li></ul></h3>
+            <p class="center">Ausztrália legfontosabb és legfelkapottabb helyszíne, az ország központja szinte minden értelemben. Természetesen a legismertebb épülete az Operaház, amely egy vitorlásra hasonlít. Ez a kép sok helyen előbukkan, köszönhetően külsejének és a környező látképnek. A tengerpart sem maradhat le a látnivalókról, a belvárostól pár km-re lévő Bondi Beach kihagyhatatlan. Egy öbölben, félkörívben található part finomhomokos, népszerű a fürdőzők és a vízisportot kedvelők körében.</p>
+          </div>
+        </div>
+        <hr class="line">
+        <div class="row">
+          <div class="col-xl-4">
+            <h3><ul><li>Pinnacles-sivatag</li></ul></h3>
+            <p>Nyugat-Ausztráliában a Nambung Nemzeti Park része ez a különleges helyszín. Számos különleges mészkőoszlop található itt, amelyek a homokos tájat szegélyezik. Ezek az oszlopok különböző alakúak és méretűek, néhányuk eléri az akár négy méteres magasságot is.</p>
+          </div>
+          <div class="col-xl-4 center">
+            <img src="img/pinnacles-sivatag.jpg"  class="positioning_img" style="border: dashed darkgreen 10px;" alt="Pinnacles-sivatag" title="Pinnacles-sivatag">
+          </div>
+          <div class="col-xl-4 center">
+            <p>Több ezer év alatt formálódtak ki a képződmények a tengeri kagylók maradványainak felhalmozódásából és a későbbi kalcium-karbonát kiválásból. Látványos tája miatt népszerű turisztikai célpont, különösen a fotósok és a természetjárók körében.</p>
+          </div>
+        </div>
+        <hr class="line">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3><ul><li>Perth</li></ul></h3>
+            <p>Nyugat-Ausztrália fővárosa és legnagyobb települése. Remek kiindulóhely a sivatagi rész felfedezéséhez. Egy útikönyvszerző a Föld legfélreesőbb városának titulálta, mivel Perth népesebb, mint Perth-ön kívül teljes Nyugat-Ausztrália. Ennek ellenére érdemes felkeresni a látnivalók miatt. A strandok végighúzódnak a város és környékének hosszú tengerpartján. A belvárosban pedig a Kings Park Perth botanikus kert a fő látványosság, amelynek területe nagyobb, mint a New yorki Central Park.</p>
+          </div>
+          <div class="col-lg-6 center">
+            <img src="img/perth.jpg" class="positioning_img" style="border: dashed darkgreen 10px;" alt="Perth" title="Perth">
+          </div>
+        </div>
+        <hr class="line">
+        <div class="row">
+          <div class="col-lg-6 center">
+            <img src="img/kakadu.jpg" class="positioning_img" style="border: dashed darkgreen 10px;" alt="Kakadu Nemzeti Park" title="Kakadu Nemzeti Park">
+          </div>
+          <div class="col-lg-6">
+            <h3><ul><li>Kakadu Nemzeti Park</li></ul></h3>
+            <p>Ausztrália északi részén található a kontinens legnagyobb nemzeti parkja. A tengerparton fekvő, trópusi éghajlatú területet mangrove-erdők borítják, ahol találkozik a tengeri és a szárazföldi ökoszisztéma. A nemzeti parkban krokodilok, kenguruk, dingók és kakaduk élnek paradicsomi körülmények között. A park 1600-nál is több növényfajjal, 300 madárfajjal és 5000 ismert, az ausztrál őslakosok által készített sziklafestménnyel büszkélkedhet.</p>
+          </div>
+        </div>
       </div>
       <div class="tab-pane fade" id="contentHistory" role="tabpanel" aria-labelledby="tab2" tabindex="0">
         <h2>Rövid történelme</h2>
+        <div class="row">
+          <div class="col-lg-4 center">
+            <img src="img/oslakos.jpg" class="positioning_img2" style="border: dashed darkgreen 10px; margin: 3rem;" alt="Őslakos bumeránggal" title="Őslakos bumeránggal">
+          </div>
+          <div class="col-lg-8">
+            <h3><ul><li>Kezdetek</li></ul></h3>
+            <p>Az ausztrál kontinens emberek által történő birtokba vételére mintegy 42 000 és 48 000 évvel ezelőtt kerülhetett sor, feltehetően a mai Délkelet-Ázsia felől nyíló sekély tengeren és földhídon keresztül érkező emberek bevándorlása során. A kontinens ezen első lakosai vélhetően az ősei a ma élő bennszülött ausztráloknak. Ausztrália földjét a bennszülött ausztrál őslakosok népesítették be, akik kimutathatóan mintegy 250 nyelvcsalád nyelveit beszélték.  Az európaiak megtelepedése idején az őslakosok többsége még vadászó-gyűjtögető életmódot élt, melyhez összetett szóbeli mondavilág tartozott, melynek szellemi öröksége a föld tiszteletét hordozta magában és az Álomidőben hittek.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 center">
+            <img src="img/falfestmeny.jpg" class="positioning_img" style="border: dashed darkgreen 10px;" alt="Falfestmények" title="Falfestmények">
+          </div>
+          <div class="col-lg-8">
+            <p>A legújabb antropológiai kutatások szerint Ausztráliában vívták az első csatát a Földön, mint ahogy gondolatait is itt rögzítette először az ember. A bennszülöttek kultúrájának minden része a nomád életmódról tanúskodik. A mítoszok szerint őseik óriás kenguruk voltak (vagy kígyók, emuk), akik dalaikkal alkották meg a tájat, adtak életet a növényeknek, állatoknak, embereknek. A teremtés után eggyé váltak a Földdel (totemek tisztelete innen ered). A bumerángot kb. 10 000 évvel ezelőtt találták fel az őslakosok, de csak néhány középső sivatagos területen használták, kisebb állatok elejtésére.</p>
+          </div>
+        </div>
+        <hr class="line">
+        <div class="row">
+          <div class="col-xl-6">
+            <h3><ul><li>Ausztrália felfedezése</li></ul></h3>
+            <p>1602-ben megalapították a Holland Kelet-indiai Társaságot és kereskedelmi állomásokat alakítottak ki. A holland Willem Janszoon volt az első európai, aki partra szállt a kontinensen, 1606-ban. Ő és hajós társai figyelhették meg e kontinenst legelőször a Cape York-félszigetnél 1606 elején, majd február 26-án partot értek a Pennefather-folyónál, a mai Weipa városkánál, a York-félszigeten. 1607-ben a spanyol Luis Vaez de Torres hajózott végig először a később róla elnevezett szoroson, amely Új-Guineát és a York-fokot kötötte össze. 1642-ben a holland Abel Tasman elérte a mai Tasmaniát, majd felfedezte Új-Zélandot.  1770-ben James Cook végighajózott és feltérképezte a keleti partvonalat, melyet Új-Dél-Walesnek nevezett, és III. György király utasítására brit fennhatóság alá vonta azt 1770. augusztus 22-én.</p>
+          </div>
+          <div class="col-xl-3 center">
+            <img src="img/Willem-Janszoon.jpg" class="positioning_img3" style="border: dashed darkgreen 10px; margin: 1rem;" alt="Willem Janszoon kapitány" title="Willem Janszoon kapitány">
+          </div>
+          <div class="col-xl-3 center">
+            <img src="img/James-Cook.jpg" class="positioning_img3" style="border: dashed darkgreen 10px; margin: 1rem;" alt="James Cook kapitány" title="James Cook kapitány">
+          </div>
+        </div>
+        <hr class="line">
+        <div class="row">
+          <div class="col-12">
+            <h3><ul><li>Az aranyláz</li></ul></h3>
+            <p>Az aranyláz az 1850-es évek elején kezdődött Ausztráliában, majd az Eurekai lázadáshoz vezetett, amely a bányászati jogok díjai miatt tört ki 1854-ben polgári engedetlenségbe torkollott. 1851-ben Melbourne közelében aranyat találtak, pár hónappal később pedig Victoriában, Új-Dél Wales-ben és a Nagy-Vízválasztó-hegységben. Az aranyat keresők falvakat hoztak létre a kontinens belsejében, a Darling és a Murray mentén. Melbourne-ből nagyvárost teremtett az arany, szállodákkal, színházzal, bankokkal és közvilágítással. 1854-ben a ballarati bányászok létrehoztak egy Reformligát, hogy tiltakozzanak a bányászati adó mértéke és a beszedés embertelensége miatt. Gátat építettek, és fegyverrel védték magukat. 30 bányász és 5 katona esett el a félórás ütközetben, ami végül is felgyorsította a reformokat. Az Eureka-gátnál lezajlott csata fontos epizódja lett az ausztrál történelemnek és folklórnak.</p>
+          </div>
+        </div>
+        <hr class="line">
+        <div class="row">
+          <div class="col-lg-6 center">
+            <img src="img/Canberra.jpg" class="positioning_img" style="border: dashed darkgreen 10px; margin: 1rem;" alt="Canberra régen" title="Canberra régen">
+          </div>
+          <div class="col-lg-6">
+            <h3><ul><li>Önállósága</li></ul></h3>
+            <p>1901-ben a kontinens brit gyarmatainak uniójából létrejött Ausztrália mint a Brit Birodalom egyik belső önkormányzattal rendelkező domíniuma. Ám a szabadságot a „Fehér Ausztráliában” hívők gondolták csak természetesnek: a faji megkülönböztetés törvény által védett irányelv lett, amikor 1901-ben az ázsiaiak bevándorlását lehetetlenné tévő törvény megszületett. 1927-ben a parlament első ízben ülésezett az új fővárosban, Canberrában. 1965-ben eltörölték a faji törvényeket. 1967-ben a népszavazáson a lakosok 90%-a egyetértett azzal, hogy bennszülöttek állampolgári jogokat kapjanak. Az 1967-ben az őslakosokról tartott népszavazás eredményeképpen a szövetségi kormány speciális törvényeket hozott az ausztrál őslakosok védelme és nagyobb megbecsülése érdekében.</p>
+          </div>
+        </div>
       </div>
       <div class="tab-pane fade" id="contentCulture" role="tabpanel" aria-labelledby="tab3" tabindex="0">
         <h2>Kultúrája</h2>

@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #d84521;
+    background-color: #A05A2C;
 }
 
 #titlebar {
@@ -28,6 +28,69 @@ body {
     margin-top: 1rem;
 }
 
-img.width_img1 {
-    width: 64px;
+h2 {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    margin: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.positioning_nav {
+    margin-left: 1rem;
+}
+
+.positioning_img {
+    width: 30rem;
+}
+
+.positioning_img2 {
+    width: 20rem;
+}
+
+.positioning_img3 {
+    width: 25rem;
+}
+
+.design {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+}
+
+button:hover {
+    color: #A05A2C;
+    font-weight: bold;
+
+}
+
+p {
+    margin: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    text-indent: 2rem;
+}
+
+hr.line {
+    border-top: dashed darkgreen 10px;;
+    opacity: 1;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
