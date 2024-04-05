@@ -40,6 +40,18 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2rem;
+}
+
+li.unnep_lista {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1.7rem;
+    font-size: large;
+    text-decoration: underline dashed darkgreen 0.5rem;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -66,6 +78,10 @@ h3 {
 
 .positioning_img3 {
     width: 25rem;
+}
+
+.positioning_img4 {  /* Not another one :cry:*/
+    width: 40rem;  
 }
 
 .design {
