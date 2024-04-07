@@ -24,6 +24,12 @@ body {
     width: 192px;
 }
 
+@media (max-width: 767px) {
+    #titlebar .side {
+        display: none;
+    }
+}
+
 #navBar {
     margin-top: 1rem;
 }
