@@ -4,6 +4,7 @@ html {
 
 body {
     background-color: #A05A2C;
+    color: white;
 }
 
 #titlebar {
@@ -123,8 +124,8 @@ hr.line {
 }
 
 a.forras {
-    text-decoration: none;
-    color: #000000;
+    text-decoration: underline;
+    color: lightgreen;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.3rem;
     
