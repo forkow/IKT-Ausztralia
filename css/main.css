@@ -45,7 +45,7 @@ h4 {
     margin: 2rem;
 }
 
-li.unnep_lista {
+li.lista {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1.7rem;
     font-size: large;
@@ -102,6 +102,11 @@ p {
     text-indent: 2rem;
 }
 
+p.indent {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 3rem;
+}
+
 hr.line {
     border-top: dashed darkgreen 10px;;
     opacity: 1;
@@ -109,4 +114,20 @@ hr.line {
     margin-bottom: 4rem;
     margin-right: 2rem;
     margin-left: 2rem;
+}
+
+a.forras {
+    text-decoration: none;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    
+}
+
+a.forras:hover {
+    font-weight: bold;
+}
+
+li.forras {
+    margin: 0.7rem;
 }
