@@ -1,5 +1,6 @@
 html {
     font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -39,21 +40,17 @@ h2 {
     text-align: center;
     margin-top: 1.5rem;
     margin-bottom: 3rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h3 {
     margin: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h4 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 2rem;
 }
 
 li.lista {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1.7rem;
     font-size: large;
     text-decoration: underline dashed darkgreen 0.5rem;
@@ -92,7 +89,6 @@ li.lista {
 }
 
 .design {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #000000;
 }
 
@@ -104,13 +100,11 @@ button:hover {
 
 p {
     margin: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2rem;
     text-indent: 2rem;
 }
 
 p.indent {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-indent: 3rem;
 }
 
@@ -126,7 +120,6 @@ hr.line {
 a.forras {
     text-decoration: underline;
     color: lightgreen;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.3rem;
     
 }
